@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="variables_search.css">
         <title>Search</title>
     </head>
     <body>
@@ -13,7 +14,9 @@
             <a href="#" id="sign-in">Sign in</a>
         </div>
         <div id="main">
-            <img src="google_logo.png" alt="google logo">
+            <img id="logo" src="google_logo.png" alt="google logo">
+
+            <div id="flexbox">
             <form action="https://google.com/search">
                 <input type="text" name="q">
                 <br>
@@ -22,6 +25,8 @@
             <form>
                 <input type="button" onclick="window.location.href='https://www.google.com/doodles/';" value="I'm Feeling Lucky" />
             </form>
+            </div>
+
              <p id="google-text">Google offered in: <a href="#" id="Español">Español (Latinoamérica)</a></p>
         </div>
     </body>
