@@ -13,12 +13,20 @@ html {
     margin: 0 20px 0 10px;
 }
 
-a, p {
+p {
     text-decoration: none;
     color: rgba(0,0,0,0.87);
     font-size: 13px;
     font-family: Helvetica, Arial, sans-serif;
 }
+
+a  {
+    text-decoration: none;
+    color: rgba(0,0,0,0.70);
+    font-size: 13px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -167,7 +175,7 @@ table
 td{
   padding-left: 10px;
   padding-right: 10px;
-  height: 3em;
+  height: 1em;
   border-top: 1px solid #d4d4d4;
 }
 
@@ -175,8 +183,7 @@ td{
   float: left;
   color: #5f6368;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 7px 16px;
   font-size: 14px;
 }
 
@@ -184,16 +191,14 @@ td{
   float: left;
   color: #5f6368;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  padding: 7px 16px 7px;
+  font-size: 20px;
 }
 
 .right-navbar {
   float: right;
   color: #5F6368;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  padding: 7px 16px 7px;
+  font-size: 20px;
 }
