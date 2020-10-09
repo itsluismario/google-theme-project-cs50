@@ -149,66 +149,39 @@ a:hover {
 }
 
 /*Footer Section*/
-#footer {
-    bottom: 0;
-    display: table;
-    grid-template-columns: 100px 100px 150px 1330px 70px 70px 70px;
-    grid-gap: 30px;
-    grid-template-rows: 50px;
-    grid-template-areas:
-    "advertising business hsw . privacy terms settings";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table
+{
+	border-collapse: collapse;
+    bottom:0%;
+  	overflow: hidden;
     background-color: #ececec;
-    border-top: 1px solid #d4d4d4;
+    position: fixed;
+    width: 100%;
 }
 
-/*#bar-left {
-  display: flex;
-  align-items: center;
-}
-
-#bar-right {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-}
-*/
-
-/*.navbar-bottom-mx {
-  overflow: hidden;
-  background-color: #ececec;
-  position: fixed;
-  width: 100%;
+td{
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 3em;
   border-top: 1px solid #d4d4d4;
-  border-bottom: 1px solid #d4d4d4;
-  padding-left: 5px;
-  padding-right: 15px;
 }
 
-#mexico {
-float: left;
-color: #5F6368;
-display: block;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
-}
-*/
-.navbar-bottom {
-  overflow: hidden;
-  background-color: #ececec;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border-top: 1px solid #d4d4d4;
-  border-bottom: 1px solid #d4d4d4;
-  padding-left: 5px;
-  padding-right: 15px;
-}
-
-.navbar-bottom .left-navbar {
+#mexico{
   float: left;
-  display: block;
+  color: #5f6368;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.left-navbar {
+  float: left;
   color: #5f6368;
   text-align: center;
   padding: 14px 16px;
@@ -216,44 +189,11 @@ font-size: 17px;
   font-size: 17px;
 }
 
-.navbar-bottom .right-navbar {
+.right-navbar {
   float: right;
-  display: block;
   color: #5F6368;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
-/*
-#advertising {
-    grid-area: advertising;
-    justify-self: center;
-    align-self: center;
-}
-#business {
-    grid-area: business;
-    justify-self: center;
-    align-self: center;
-}
-#hsw {
-    grid-area: hsw;
-    justify-self: center;
-    align-self: center;
-}
-#privacy {
-    grid-area: privacy;
-    justify-self: center;
-    align-self: center;
-}
-#terms {
-    grid-area: terms;
-    justify-self: center;
-    align-self: center;
-}
-#settings {
-    grid-area: settings;
-    justify-self: center;
-    align-self: center;
-}
-*/
