@@ -93,12 +93,12 @@ a:hover {
   font-size: 15px;
   transition: box-shadow .3s; }
 
-.fa-search {
+.mag_grey {
   height: 20px;
   position: relative;
   top: 0px;
-  margin-left: 15px;
-  color: #888888; }
+  left: 14px;
+  margin-right: 15px; }
 
 .voice {
   height: 20px;
