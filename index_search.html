@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
         <link rel="stylesheet" href="variables_search.css">
         <title>Search</title>
     </head>
@@ -18,14 +19,20 @@
             <img id="logo" src="google_logo.png" alt="google logo">
 
             <div id="flexbox">
+              <div class="bar">
                 <form action="https://google.com/search">
-                    <input type="text" name="q" id="search">
-                    <div class="flex-parent jc-center">
-                    <input type="submit" value="Google Search" class="google-search-btn">
-                    <input type="button" onclick="window.location.href='https://www.google.com/doodles/';" value="I'm Feeling Lucky" class="google-search-btn"/>
-                    </div>
-                </form>
+                  <i class="fa fa-search"></i>
+                  <input type="text" name="q" title="Search" class="searchbar">
+                  <a href="#"> <img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
+              </div>
+              <div class="flex-parent jc-center">
+                  <input type="submit" value="Google Search" class="google-search-btn">
+                  <input type="button" onclick="window.location.href='https://www.google.com/doodles/';" value="I'm Feeling Lucky" class="google-search-btn"/>
+              </div>
+              </form>
             </div>
+
+
             <p id="google-text">Google offered in: <a href="#" id="Espanol">Español (Latinoamérica)</a></p>
         </div>
     </body>
@@ -33,7 +40,7 @@
     <footer>
         <table>
             <tr>
-              <td>       
+              <td>
                 <div><p id="mexico">Mexico</p></div>
               </td>
             </tr>

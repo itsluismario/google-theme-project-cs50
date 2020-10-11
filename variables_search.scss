@@ -31,16 +31,6 @@ a:hover {
     text-decoration: underline;
 }
 
-#about {
-    grid-area: about;
-    justify-self: center;
-    align-self: center;
-}
-#store {
-    grid-area: store;
-    justify-self: center;
-    align-self: center;
-}
 #gmail {
     grid-area: gmail;
     justify-self: center;
@@ -90,23 +80,55 @@ a:hover {
     grid-area: logo;
     justify-self: center;
     align-self: end;
+    margin-bottom: -5px;
 }
 
-#search {
-    grid-area: search;
-    height: 40px;
-    width: 35em;
-    align-self: center;
-    justify-self: center;
-    border: 1px solid rgba(0, 0, 0, 0.151);
-    border-radius: 30px;
+.bar{
+  margin:0 auto;
+  width: 490px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
 }
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+
+.searchbar{
+  height:42px;
+  border:none;
+  width:405px;
+  border-radius: 100px;
+  padding: 0 15px;
+  outline: 0;
+  font-size: 15px;
+  transition: box-shadow .3s;
+}
+
+.fa-search {
+  height: 20px;
+  position:relative;
+  top: 0px;
+  margin-left: 15px;
+  color: #888888;
+}
+
+.voice{
+  height:20px;
+  position:relative;
+  top:-2px;
+  left:10px;
+}
+
 
 #search:focus {
-    box-shadow: 1px 1px 5px grey;
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
 #search:hover {
-    box-shadow: 1px 1px 5px grey;
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
 
 #flexbox {
@@ -126,25 +148,16 @@ a:hover {
 
 .google-search-btn {
     border: none;
-    font-size: 15px;
+    font-size: 14px;
     color: #5F6368;
-    margin: 30px 5px 30px 5px;
-    padding: 7px 15px 7px 15px;
+    margin: 30px 7px;
+    padding: 7px 15px ;
     border-radius: 3px;
 }
 
-#random-search-btn {
-    border: none;
-    font-size: 15px;
-    color: #5F6368;
-    padding: 7px 15px 3px 15px;
-    border-radius: 3px;
-}
 .google-search-btn:hover {
     border: 1px solid rgba(0, 0, 0, 0.226);
-}
-.random-search-btn:hover {
-    border: 1px solid rgba(0, 0, 0, 0.226);
+    padding: 6px 14px;
 }
 
 #google-text {
