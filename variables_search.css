@@ -25,10 +25,11 @@ a {
 a:hover {
   text-decoration: underline; }
 
-#gmail {
+#advance {
   grid-area: gmail;
   justify-self: center;
-  align-self: center; }
+  align-self: center;
+  margin-right: 30px; }
 
 #image {
   grid-area: image;
