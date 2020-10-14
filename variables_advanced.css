@@ -154,24 +154,26 @@ div.otByu div.jYcx0e {
   width: 50%; }
 
 div.PLLUQc {
-  padding-right: 16px; }
+  padding-right: 1px; }
 
 div.otByu div.jYcx0e input[type="text"], div.otByu div.jYcx0e span.PnexQd {
-  width: 100%;
+  width: 100.5%;
   text-align: left; }
 
 .jfk-textinput {
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
-  border-radius: 1px;
+  border-radius: 2px;
   border: 1px solid #d9d9d9;
   border-top: 1px solid #c0c0c0;
   font-size: 13px;
   height: 25px;
   padding: 1px 8px; }
 
-input[type="text" i] {
-  padding: 1px 2px; }
+input[type="text"] {
+  padding-left: 8px;
+  padding: 13.5px 4px;
+  outline: 0; }
 
 input {
   -webkit-writing-mode: horizontal-tb !important;
@@ -190,12 +192,17 @@ input {
   cursor: text;
   margin: 0em;
   font: 400 13.3333px Arial;
-  padding: 1px 2px;
   border-width: 2px;
   border-style: inset;
   border-color: -internal-light-dark(#767676, #c3c3c3);
   border-image: initial;
-  outline: 0; }
+  border-radius: 4px;
+  padding-left: 8px; }
+
+input[type=text]:focus {
+  border: 1px solid #4d90fe;
+  box-shadow: inset 0px .5px 2.5px 0px #c0c0c0;
+  padding-left: 8px; }
 
 /*Part 3 of the New Section*/
 div.otByu div.cwqNnb {
@@ -210,10 +217,10 @@ div.otByu div.cwqNnb {
   vertical-align: middle;
   position: relative; }
 
-@media (max-width: 950px) {
+@media (max-width: 1056px) {
   div.cwqNnb {
     display: none !important; } }
-@media (max-width: 950px) {
+@media (max-width: 1056px) {
   div.dulCv {
     display: none !important; } }
 div.otByu div.cwqNnb span.BFlQMb {
