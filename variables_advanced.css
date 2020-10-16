@@ -73,18 +73,15 @@ a:hover {
 
 /*Main Section*/
 /*New Section*/
-div.Mza7c {
+div.container {
   max-width: 1140px;
   min-width: 200px;
   width: 96%;
-  margin: 40px 2% 0 45px; }
+  margin: 40px 2% 0 45px;
+  width: 100%;
+  clear: both; }
 
-div.lOTAE {
-  height: 30px;
-  display: table-cell;
-  vertical-align: middle; }
-
-div.otByu {
+div.subcontainer {
   width: 100%;
   clear: both; }
 
@@ -94,10 +91,7 @@ div {
 body {
   font-family: arial,sans-serif; }
 
-div.otByu div.yIQOUb {
-  clear: both; }
-
-div.otByu div.I1Kbt, div.lFApYd {
+div.subcontainer div.findpages {
   float: left;
   display: inline-block;
   min-width: 167px;
@@ -108,12 +102,12 @@ div.otByu div.I1Kbt, div.lFApYd {
   color: #333;
   vertical-align: middle; }
 
-div.lOTAE {
+div.cell {
   height: 30px;
-  display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+  display: table-cell; }
 
-div.otByu div.HoCfzc {
+div.subcontainer div.space {
   float: left;
   display: inline-block;
   min-width: 167px;
@@ -121,7 +115,7 @@ div.otByu div.HoCfzc {
   vertical-align: middle;
   width: 50%; }
 
-div.otByu div.orcpGe {
+div.subcontainer div.ToDoThis {
   float: left;
   display: inline-block;
   width: 33%;
@@ -131,7 +125,7 @@ div.otByu div.orcpGe {
   padding-left: 5px;
   vertical-align: middle; }
 
-div.otByu div.FAcADc {
+div.subcontainer div.rightcell {
   float: left;
   display: inline-block;
   min-width: 167px;
@@ -145,22 +139,20 @@ div.otByu div.FAcADc {
 label {
   cursor: default; }
 
-div.otByu div.jYcx0e {
+div.subcontainer div.centercell {
   float: left;
   display: inline-block;
   min-width: 167px;
   min-height: 41px;
   vertical-align: middle;
-  width: 50%; }
-
-div.PLLUQc {
+  width: 50%;
   padding-right: 1px; }
 
-div.otByu div.jYcx0e input[type="text"], div.otByu div.jYcx0e span.PnexQd {
+div.subcontainer div.centercell input[type="text"], div.subcontainer div.centercell span.PnexQd {
   width: 100.5%;
   text-align: left; }
 
-.jfk-textinput {
+.textinput {
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 2px;
@@ -175,6 +167,7 @@ input[type="text"] {
   padding: 13.5px 4px;
   outline: 0; }
 
+/*Al parecer el input no es necesario*/
 input {
   -webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
@@ -205,7 +198,7 @@ input[type=text]:focus {
   padding-left: 8px; }
 
 /*Part 3 of the New Section*/
-div.otByu div.cwqNnb {
+div.subcontainer div.leftcell {
   float: left;
   display: inline-block;
   width: 32%;
@@ -218,12 +211,9 @@ div.otByu div.cwqNnb {
   position: relative; }
 
 @media (max-width: 1056px) {
-  div.cwqNnb {
+  div.leftcell {
     display: none !important; } }
-@media (max-width: 1056px) {
-  div.dulCv {
-    display: none !important; } }
-div.otByu div.cwqNnb span.BFlQMb {
+div.subcontainer div.leftcell span.monospacefont {
   color: #666;
   font-family: monospace;
   font-size: 11px;
