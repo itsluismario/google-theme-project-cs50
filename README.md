@@ -10,3 +10,4 @@ Key Parts:
 - Every section matches Google's own asthetics
 - Every page is able to provide input for all the fields
 
+**Run it on localhost. Not deployed currently.**
